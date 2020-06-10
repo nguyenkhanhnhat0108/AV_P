@@ -10,7 +10,8 @@ namespace AV_P.Data.Entities
         public string LanguageId { get; set; }
         public int ProductId { get; set; }
         public string Name { get; set; }
-        public string Description { get; set; }
+        public string SeoAlias { get; set; }
+        public string SeoDescription { set; get; }
         public string Details { get; set; }
 
         public Product Product { get; set; }
